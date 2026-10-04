@@ -1,0 +1,38 @@
+{
+  "episode": "ep02",
+  "resolution": "480p",
+  "ratio": "16:9",
+  "generate_audio": true,
+  "scenes": [
+    {
+      "id": "canh01",
+      "duration": 5,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "Sunny morning at the hillside café, the young man's phone buzzing with notifications, eyes wide: \"Có người tải rồi!\" Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    },
+    {
+      "id": "canh02",
+      "duration": 8,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "The elderly woman leans over his shoulder, squinting at the phone: \"Cái này là cái gì vậy con?\" Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    },
+    {
+      "id": "canh03",
+      "duration": 5,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "He laughs and hands her the phone: \"Để con chỉ bà.\" Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    }
+  ]
+}

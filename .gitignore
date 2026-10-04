@@ -1,0 +1,7 @@
+# Khong public
+ark/
+output/
+_rieng-tu/
+*.env
+!cau-hinh/.env.example
+__pycache__/

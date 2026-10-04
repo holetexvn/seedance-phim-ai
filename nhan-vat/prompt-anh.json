@@ -1,0 +1,9 @@
+{
+  "model": "dola-seedream-5-0-pro-260628",
+  "size": "2048x1152",
+  "images": [
+    {"name": "ba-tu", "prompt": "Character reference sheet, 68-year-old Vietnamese woman, silver hair in a neat low bun, cream knitted cardigan over a brown áo bà ba, dark red wool scarf, jade bangle, warm gentle smile, four views side by side: front view, three-quarter view, side profile, full body, neutral grey background, soft studio light, photorealistic, consistent outfit"},
+    {"name": "minh", "prompt": "Character reference sheet, 24-year-old Vietnamese man, round black-rimmed glasses, slightly messy black hair, charcoal grey hoodie under a thin black puffer jacket, moss green knitted scarf, black backpack, tired but kind expression, four views side by side: front view, three-quarter view, side profile, full body, neutral grey background, soft studio light, photorealistic, consistent outfit"},
+    {"name": "quan-dalat", "prompt": "Tiny old wooden coffee shop on a pine-covered hillside in Da Lat at night, thick fog, light drizzle, warm tungsten bulb, glowing charcoal stove, cloth coffee filter over a kettle, white ceramic cup on a wooden table, window fogged with condensation, pine trees fading into mist outside, cinematic, no people"}
+  ]
+}

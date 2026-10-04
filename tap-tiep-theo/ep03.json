@@ -1,0 +1,38 @@
+{
+  "episode": "ep03",
+  "resolution": "480p",
+  "ratio": "16:9",
+  "generate_audio": true,
+  "scenes": [
+    {
+      "id": "canh01",
+      "duration": 5,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "Foggy morning, the elderly woman by the charcoal stove taps the phone slowly with one finger, concentrating. Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    },
+    {
+      "id": "canh02",
+      "duration": 8,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "A ding sound, a new order appears on the phone screen. She is delighted: \"Có khách đặt nè!\" Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    },
+    {
+      "id": "canh03",
+      "duration": 5,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "The young man and the elderly woman laugh together behind the counter, steam from the coffee filter, pine trees in mist through the window. Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    }
+  ]
+}

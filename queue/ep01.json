@@ -1,0 +1,38 @@
+{
+  "episode": "ep01",
+  "resolution": "1080p",
+  "ratio": "16:9",
+  "generate_audio": true,
+  "scenes": [
+    {
+      "id": "canh01",
+      "duration": 15,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "Night in Da Lat, thick fog and drizzle on a steep pine-lined road. The young man with round glasses from the reference hurries up the wooden steps of the small hillside café from the reference, hugging his laptop inside his jacket, breath visible in the cold. The elderly woman from the reference is pouring coffee through a cloth filter beside a glowing charcoal stove, steam rising. She looks up: \"Lạnh vậy mà giờ này còn chưa về hả con?\" He rubs his hands: \"Dạ, sáng mai app của con ra mắt rồi bà.\" Slow push-in, drizzle and wind in the pines. Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    },
+    {
+      "id": "canh02",
+      "duration": 30,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "Inside the wooden café, fogged window behind. 0-10s: the young man sits at the wooden table, laptop screen glowing red with errors, a white ceramic cup of hot coffee beside it. He rubs his eyes: \"Lỗi nữa rồi… sửa hoài không được.\" 10-20s: the elderly woman sits down across from him, warms her hands by the charcoal stove, slides the cup closer: \"Cà phê phải lọc chậm mới ngon. Con gấp quá thì nó đắng thôi.\" 20-30s: he pauses, wraps both hands around the warm cup, takes a sip, smiles and types calmly; the laptop screen turns green. He says: \"Được rồi bà ơi!\" She chuckles: \"Thấy chưa.\" One continuous shot, slow orbit around the table, warm bulb light, steam curling. Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    },
+    {
+      "id": "canh03",
+      "duration": 15,
+      "images": [
+        "nhan-vat/minh.png",
+        "nhan-vat/ba-tu.png",
+        "nhan-vat/quan-dalat.png"
+      ],
+      "prompt": "Dawn, rain stopped, golden sunlight breaking through fog over pine hills. On the café porch the young man shoulders his backpack and leaves cash under the empty cup: \"Mai con lại ghé nha bà.\" The elderly woman, wrapping her scarf tighter: \"Ừ, nhớ ngủ đó.\" Wide shot, he walks down the misty slope, sea of clouds below, sunrise. Cinematic, 35mm film look, shallow depth of field, Da Lat highlands, thick mountain fog, light drizzle, pine trees, warm tungsten light and glowing charcoal stove inside a wooden café, cool blue-green night outside, visible breath in cold air."
+    }
+  ]
+}

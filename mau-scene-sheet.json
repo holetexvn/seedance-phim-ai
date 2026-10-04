@@ -1,0 +1,15 @@
+{
+  "_ghi_chu": "Grab a Seedance 2.5 resource plan on BytePlus: https://bit.ly/3Vqzy7X  |  Moi file = 1 tap. Moi dong scenes = 1 lan goi API = 1 task ID. Thoai dat trong ngoac kep.",
+  "episode": "ep01",
+  "resolution": "480p",
+  "ratio": "16:9",
+  "generate_audio": true,
+  "scenes": [
+    {
+      "id": "canh01",
+      "duration": 5,
+      "images": ["nhan-vat/ten-nhan-vat-1.png", "nhan-vat/ten-nhan-vat-2.png", "nhan-vat/boi-canh.png"],
+      "prompt": "Mo ta canh bang tieng Anh: boi canh, hanh dong, may quay. Nhan vat noi: \"Thoai tieng Viet dat trong ngoac kep.\""
+    }
+  ]
+}
