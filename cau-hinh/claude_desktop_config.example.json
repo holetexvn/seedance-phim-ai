@@ -2,9 +2,9 @@
   "mcpServers": {
     "ark-seed": {
       "command": "uv",
-      "args": ["--directory", "C:\\DUONG\\DAN\\TOI\\seedance-lumina\\ark", "run", "python", "-m", "ark_mcp"],
+      "args": ["--directory", "C:\\DUONG\\DAN\\TOI\\seedance-phim-ai\\ark", "run", "python", "-m", "ark_mcp"],
       "env": {
-        "ARK_MCP_ENV_FILE": "C:\\DUONG\\DAN\\TOI\\seedance-lumina\\ark\\.env"
+        "ARK_MCP_ENV_FILE": "C:\\DUONG\\DAN\\TOI\\seedance-phim-ai\\ark\\.env"
       }
     }
   }

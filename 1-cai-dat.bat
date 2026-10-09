@@ -8,11 +8,16 @@ if errorlevel 1 (
   set "PATH=%USERPROFILE%\.local\bin;%PATH%"
 )
 uv --version
-echo === 2. Tai ark-mcp (repo cua BytePlus tren GitHub) ===
-if not exist ark\pyproject.toml git clone --depth 1 https://github.com/byteplus-sa/ark-mcp.git ark
+echo === 2. Tai ark-mcp (ma nguon mo ben thu ba, khong phai san pham chinh thuc cua BytePlus) ===
+rem Ghim dung ban ark-mcp da kiem tra (commit a802fd3, 09/10/2026), khong lay ban moi nhat
+set "ARK_COMMIT=a802fd39fd06752290e6c7d92475428044d48777"
+if not exist ark\pyproject.toml (
+  git clone https://github.com/byteplus-sa/ark-mcp.git ark
+  git -C ark checkout %ARK_COMMIT% || (echo Khong checkout duoc ark-mcp & pause & exit /b 1)
+)
 echo === 3. Cai thu vien ===
 cd ark
-uv sync
+uv sync --locked
 if not exist .env copy ..\cau-hinh\.env.example .env
 uv run python -c "import ark_mcp; print('ark-mcp OK')"
 echo.

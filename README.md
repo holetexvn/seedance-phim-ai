@@ -12,9 +12,11 @@ Bộ tài liệu đi kèm video của Holetex: thiết lập nhân vật, mẫu 
 
 ## Cài đặt (3 bước)
 
-1. Double-click `1-cai-dat.bat` (tự cài uv, tải ark-mcp của BytePlus, cài thư viện).
-2. Mở `ark\.env`, dán API key vào dòng `BYTEPLUS_MODELARK_API_KEY=`.
-3. Claude app → Settings → Developer → Edit Config → dán khối trong `cau-hinh\claude_desktop_config.example.json`, sửa `C:\DUONG\DAN\TOI` thành đường dẫn thư mục này → khởi động lại Claude app.
+1. Double-click `1-cai-dat.bat` (tự cài uv, tải ark-mcp ở đúng phiên bản đã kiểm tra, cài thư viện).
+2. Mở `ark\.env`:
+   - dán API key vào dòng `BYTEPLUS_MODELARK_API_KEY=`
+   - ở hai dòng `ARTIFACT_DIR=` và `OUTPUT_ROOTS=`, thay `C:\DUONG\DAN\TOI\seedance-phim-ai` bằng đường dẫn thật của thư mục này (ví dụ `C:\Users\Ten\Downloads\seedance-phim-ai`).
+3. Claude app → Settings → Developer → Edit Config → dán khối trong `cau-hinh\claude_desktop_config.example.json`, thay `C:\\DUONG\\DAN\\TOI\\seedance-phim-ai` bằng cùng đường dẫn đó (trong file JSON mỗi dấu `\` phải viết thành `\\`) → khởi động lại Claude app.
 
 ## Làm phim
 
@@ -36,3 +38,8 @@ Token mỗi cảnh ghi ở `output\usage.csv`. Giá tham khảo tại thời đi
 - Seedance 2.5 tối đa 1080p.
 - Ảnh tham chiếu: script gửi file trong máy dạng base64; nếu dùng URL thì phải là URL công khai (ví dụ BytePlus TOS).
 - Không chia sẻ file `ark\.env` (chứa API key).
+
+## Nguồn (credit)
+
+- **MCP server: [ark-mcp](https://github.com/byteplus-sa/ark-mcp)**, mã nguồn mở (MIT), do Arthur Reimus duy trì trên GitHub `byteplus-sa`. Đây **không phải sản phẩm chính thức của BytePlus** và không do Holetex viết. `1-cai-dat.bat` tải nguyên bản ark-mcp, ghim ở commit `a802fd3` (09/10/2026).
+- **Do Holetex viết:** script hàng đợi `hang_doi.py` (gọi thẳng API ModelArk, không qua MCP), hồ sơ nhân vật, mẫu storyboard / scene sheet và file cấu hình MCP trong `cau-hinh\`.
